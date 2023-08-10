@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
- *  This only prints out
+ * main - This only prints out
+ * Return - to return 0
 */
 int main(void)
 {
