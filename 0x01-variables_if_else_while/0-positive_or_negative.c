@@ -11,19 +11,18 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	printf("The number is %d\n", n);
 	if (n > 0)
 	{
-		puts("is positive");
+		printf("%d is positive", n);
 	}
 	else if (n == 0)
 	{
-		puts("is zero");
+		printf("%d is zero", n);
 	}
 	else
 	{
-		puts("is negative");
+		printf("%d is negative", n);
 	}
-	puts("\n");
+	printf("\n");
 	return (0);
 }
