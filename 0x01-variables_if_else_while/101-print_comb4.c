@@ -3,7 +3,7 @@
  * main - to print possible combination
  * Return: to always return zero
  */
-int main()
+int main(void)
 {
 	int num1;
 	int num2;
