@@ -1,11 +1,11 @@
-#include <stdio.h>
+#include "main.h"
 /**
  * main - This prints alphabet in lower case
  * Return: to return 0
  */
 void print_alphabet(void);
 
-int main(void)
+void print_alphabet(void)
 {
 	char alphabet;
 
@@ -14,5 +14,4 @@ int main(void)
 		putchar(alphabet);
 	}
 	putchar('\n');
-	return (0);
 }
