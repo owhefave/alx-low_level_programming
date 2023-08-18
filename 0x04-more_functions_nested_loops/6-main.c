@@ -4,8 +4,6 @@
  * Return: Always zero
  */
 
-void print_line(int n);
-
 int main(void)
 {
 	print_line(0);
