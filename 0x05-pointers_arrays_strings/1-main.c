@@ -6,9 +6,9 @@
 
 int main(void)
 {
-	int a;
-	int b;
+	int num1 = 98;
+	int num2 = 42;
 
-	void swap_int(int *a, int *b);
+	swap_int(&num1, &num2);
 	return (0);
 }
