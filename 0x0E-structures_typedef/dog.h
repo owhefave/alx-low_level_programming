@@ -1,7 +1,6 @@
-#define DOG_H
 #ifndef DOG_H
+#define DOG_H
 
-#include <stdhio.h>
 
 /**
  * struct dog - dog basic info
